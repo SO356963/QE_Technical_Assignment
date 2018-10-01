@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="launch-opencart-url-and-test-for-a-negative-login-scenario;user-should-not-be-able-to-login-the-url-on-giving-incorrect-credentials" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Somya Sharma/Desktop/QE Technical Assignment/QETA_6/features/opencart.feature">
+            </property>
+        </properties>
+        <testcase name="Given User navigates to &quot;https://www.opencart.com/&quot;" classname="launch-opencart-url-and-test-for-a-negative-login-scenario;user-should-not-be-able-to-login-the-url-on-giving-incorrect-credentials" time="13.491193749">
+        </testcase>
+        <testcase name="And the title is verified of the home page" classname="launch-opencart-url-and-test-for-a-negative-login-scenario;user-should-not-be-able-to-login-the-url-on-giving-incorrect-credentials" time="0.000385111">
+        </testcase>
+        <testcase name="When user clicks on the login link to give incorrect email id and password" classname="launch-opencart-url-and-test-for-a-negative-login-scenario;user-should-not-be-able-to-login-the-url-on-giving-incorrect-credentials" time="0.001699311">
+        </testcase>
+        <testcase name="And clicks on Login button" classname="launch-opencart-url-and-test-for-a-negative-login-scenario;user-should-not-be-able-to-login-the-url-on-giving-incorrect-credentials" time="0.000459635">
+        </testcase>
+        <testcase name="Then Verify the error message and close the browser" classname="launch-opencart-url-and-test-for-a-negative-login-scenario;user-should-not-be-able-to-login-the-url-on-giving-incorrect-credentials" time="0.000467221">
+        </testcase>
+    </testsuite>
+</testsuites>

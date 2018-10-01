@@ -1,0 +1,99 @@
+[
+  {
+    "elements": [
+      {
+        "id": "launch-opencart-url-and-test-for-a-negative-login-scenario;user-should-not-be-able-to-login-the-url-on-giving-incorrect-credentials",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "User should not be able to login the url on giving incorrect credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User navigates to \"https://www.opencart.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 13491193749
+            },
+            "line": 17,
+            "match": {
+              "location": "Assignment\\QETA_6\\step-definitions\\opencart-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the title is verified of the home page",
+            "result": {
+              "status": "passed",
+              "duration": 385111
+            },
+            "line": 18,
+            "match": {
+              "location": "Assignment\\QETA_6\\step-definitions\\opencart-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user clicks on the login link to give incorrect email id and password",
+            "result": {
+              "status": "passed",
+              "duration": 1699311
+            },
+            "line": 19,
+            "match": {
+              "location": "Assignment\\QETA_6\\step-definitions\\opencart-steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "clicks on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 459635
+            },
+            "line": 20,
+            "match": {
+              "location": "Assignment\\QETA_6\\step-definitions\\opencart-steps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Verify the error message and close the browser",
+            "result": {
+              "status": "passed",
+              "duration": 467221
+            },
+            "line": 21,
+            "match": {
+              "location": "Assignment\\QETA_6\\step-definitions\\opencart-steps.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 14166333468
+            },
+            "hidden": true,
+            "match": {
+              "location": "Assignment\\QETA_6\\node_modules\\selenium-cucumber-js\\runtime\\world.js:221"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "launch-opencart-url-and-test-for-a-negative-login-scenario",
+    "keyword": "Feature",
+    "line": 14,
+    "name": "Launch opencart url and test for a negative login scenario",
+    "tags": [],
+    "uri": "C:/Users/Somya Sharma/Desktop/QE Technical Assignment/QETA_6/features/opencart.feature"
+  }
+]

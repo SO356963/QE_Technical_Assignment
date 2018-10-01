@@ -1,0 +1,23 @@
+{
+  "name": "cucumber-test",
+  "version": "1.0.0",
+  "description": "To test using cucumber js and selenium webdriver",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions -x 50000"
+  },
+  "keywords": [
+    "cucumber"
+  ],
+  "author": "Somya Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "selenium-cucumber-js": "^1.4.9"
+  },
+  "dependencies": {
+    "delay": "^4.0.1",
+    "get-title-at-url": "^1.1.6",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
