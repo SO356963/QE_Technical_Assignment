@@ -1,0 +1,342 @@
+[
+  {
+    "elements": [
+      {
+        "id": "use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;1-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "1 :Offering a new Lloyds saving account of higher AER to a user whose total credit outstandings are lesser than his total debit accounts balance",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user navigates to \"http://localhost:3004/#/\"",
+            "result": {
+              "status": "passed",
+              "duration": 619233
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user enters the login name \"alice\"",
+            "result": {
+              "status": "passed",
+              "duration": 2293806
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "enters the password \"wonderland\"",
+            "result": {
+              "status": "passed",
+              "duration": 642266
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "click on Sign In button",
+            "result": {
+              "status": "passed",
+              "duration": 399859
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "verify the total debit account balance for alice",
+            "result": {
+              "status": "passed",
+              "duration": 790277
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "verify the total credit account balance for alice",
+            "result": {
+              "status": "passed",
+              "duration": 4620084
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clicks on yes button to optimise his/her savings",
+            "result": {
+              "status": "passed",
+              "duration": 311504
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clicks on Agree and Pay button on payout page",
+            "result": {
+              "status": "passed",
+              "duration": 498029
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clicks on Switch Now button on the offerings page",
+            "result": {
+              "status": "passed",
+              "duration": 390419
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "verify the alert text",
+            "result": {
+              "status": "passed",
+              "duration": 360967
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user logs out from the application",
+            "result": {
+              "status": "passed",
+              "duration": 382112
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:70"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 67677510169
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Optima\\node_modules\\selenium-cucumber-js\\runtime\\world.js:221"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;2-:offering-a-new-lloyds-credit-card-of-lower-apr-to-a-user-whose-total-credit-outstandings-are-more-than-his-total-debit-accounts-balance",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "2 :Offering a new Lloyds credit card of lower APR to a user whose total credit outstandings are more than his total debit accounts balance",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user navigates to \"http://localhost:3004/#/\"",
+            "result": {
+              "status": "passed",
+              "duration": 284697
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user enters the login name \"john\"",
+            "result": {
+              "status": "passed",
+              "duration": 1016826
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "enters the password \"doe\"",
+            "result": {
+              "status": "passed",
+              "duration": 905439
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "click on Sign In button",
+            "result": {
+              "status": "passed",
+              "duration": 505203
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "verify the total debit account balance for john",
+            "result": {
+              "status": "passed",
+              "duration": 1406868
+            },
+            "line": 25,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "verify the total credit account balance for john",
+            "result": {
+              "status": "passed",
+              "duration": 2113322
+            },
+            "line": 26,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clicks on yes button to optimise his/her savings",
+            "result": {
+              "status": "passed",
+              "duration": 1027398
+            },
+            "line": 27,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clicks on Agree and Pay button on payout page",
+            "result": {
+              "status": "passed",
+              "duration": 1176921
+            },
+            "line": 28,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clicks on Switch Now button on the offerings page",
+            "result": {
+              "status": "passed",
+              "duration": 3147140
+            },
+            "line": 29,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "verify the alert text",
+            "result": {
+              "status": "passed",
+              "duration": 602243
+            },
+            "line": 30,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user logs out from the application",
+            "result": {
+              "status": "passed",
+              "duration": 783858
+            },
+            "line": 31,
+            "match": {
+              "location": "C:\\Optima\\step-definitions\\optima-steps.js:70"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 66851050261
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Optima\\node_modules\\selenium-cucumber-js\\runtime\\world.js:221"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Use Optima app to suggest best payout plan to a user by using lower AER debit account to pay off higher APR credit outstandings",
+    "tags": [],
+    "uri": "C:/Optima/features/optima.feature"
+  }
+]
